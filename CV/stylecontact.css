@@ -19,3 +19,5 @@ p {color: white;
 #phone {width: 60px;}
 
 #linkedin {width: 80px;}
+
+p:hover {color: black;}
