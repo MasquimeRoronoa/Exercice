@@ -1,0 +1,26 @@
+body {background-color: lightblue;}
+
+h1 {text-align: center;
+    margin-bottom: 30px;}
+h2 {text-align: center;
+    font-size: 30px;}
+
+#img1 {width: 100px;}
+#lens {width: 85px;}
+#mars {width: 80px;}
+
+#colonne1 {float: left;
+          margin-left: 500px;
+          width: auto;
+          height: auto;
+          margin-bottom: 30px;}
+
+#colonne2 {float: right;
+          margin-right: 500px;
+          width: auto;
+          height: auto;
+          margin-bottom: 30px;}
+
+#none {clear: both;}
+
+p {font-size: 20px;}

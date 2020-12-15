@@ -1,0 +1,60 @@
+
+
+body {background-image: url(https://framapiaf.s3.framasoft.org/framapiaf/media_attachments/files/000/054/932/original/36f955e963a448e6.jpg)}
+
+h1 {margin-left: 390px;
+    font-size: 40px;
+    color: white;}
+
+em {margin-left: -180px;
+    font-size: 35px;
+    color: white;}
+
+h2 {text-align: center;
+    font-size: 35px;
+    color: white;}
+
+h3 {text-align: center;
+    font-size: 25px;
+    color: white;}
+
+a {color: white;}
+
+ul {text-align: center;
+    color: white;}
+
+p {text-align: center;
+  font-size: 18px;
+  color: white;}
+
+dt {text-align: center;
+    color: white;}
+dd {text-align: center;
+    color: white;}
+
+#homer {float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 150px;
+    margin-bottom: -120px;}
+
+
+#contain {clear: both;}
+
+#gls {width: 70px;}
+#centurion {width: 90px;}
+#amazon {width: 90px;}
+
+
+#img1 {display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;}
+
+#border {border: groove;
+        color: white;
+        margin-left: 450px;
+        width: 600px;
+        height: 50px;}
+
+section {text-align: center;}
