@@ -3,10 +3,12 @@
 body {background-image: url(https://framapiaf.s3.framasoft.org/framapiaf/media_attachments/files/000/054/932/original/36f955e963a448e6.jpg)}
 
 h1 {margin-left: 390px;
+    margin-top: 50px;
     font-size: 40px;
     color: white;}
 
 em {margin-left: -180px;
+    margin-top: 50px;
     font-size: 35px;
     color: white;}
 
@@ -44,6 +46,7 @@ dd {text-align: center;
 #gls {width: 70px;}
 #centurion {width: 90px;}
 #amazon {width: 90px;}
+#idforma {width: 70px;}
 
 
 #img1 {display: block;
@@ -56,5 +59,16 @@ dd {text-align: center;
         margin-left: 450px;
         width: 600px;
         height: 50px;}
+
+#nav li {display: inline;
+        text-align: center;
+        margin-right: 50px;
+        font-size: 20px;
+        background-color: grey;}
+
+#nav {background-color: grey;}
+
+li a {color: black;
+      text-decoration: none;}
 
 section {text-align: center;}
