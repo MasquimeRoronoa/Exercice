@@ -1,8 +1,8 @@
 body {margin-left:auto;
     margin-right:auto;
     background-color: #C6C0A0;
-    font-family : Georgia
-    width: 80%;}
+    font-family : Georgia;
+    width: 100%;}
 
 h2 {color: #7d775c;
     font-size: larger;
@@ -14,7 +14,8 @@ h2 {color: #7d775c;
 h3 {color: #7D775C;
     font-size:larger;
     font-weight: bold;
-    letter-spacing: 1px;}
+    letter-spacing: 1px;
+    text-decoration: none;}
 
 li {padding-top: 12px;}
 
@@ -24,14 +25,14 @@ li {padding-top: 12px;}
         font-size:larger;
         text-decoration: underline;}
 
-#container {font-family: 75%;
+#container {float: right;
+  width: 60%;
+  font-family: 75%;
   background-color: white;
   margin-top: 20px;
-  margin-left: 400px;
-  margin-right: 200px;
-  margin-bottom: 50px;
-  padding-right: 10%;
-  padding-left: 10%;
+  margin-right: 250px;
+  padding-right: 10px;
+  padding-left: 10px;
   -moz-border-radius: 10px;
  -webkit-border-radius: 10px;
  box-shadow: 8px 8px 12px #aaa;
@@ -40,25 +41,28 @@ li {padding-top: 12px;}
 
  #menu { float: left;
    position: absolute;
-margin-top: -420px;
-padding: 50px;
+margin-top: 10px;
+padding: auto;
  font: bold 1em "georgia" ,verdana;
  list-style-type: none;
 }
 
-#menu a {
-  float: left;
- color: #508768;
+#menu a {float: left;
  text-decoration: none;
  display: block;
  margin: 10px;
  color: #508768;
- text-decoration: none;
  line-height:2em;
- width:auto;
+ width:180px;
  border:1px solid blue;
  background-color: #BDD7B5;
- text-align: center;}
+ text-align: center;
+ -moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+box-shadow: 8px 8px 12px #aaa;
+-moz-box-shadow: 8px 8px 12px #aaa;
+-webkit-box-shadow: 8px 8px 12px #aaa;
+}
 
 
 #menu a:hover, #menu a:focus {
