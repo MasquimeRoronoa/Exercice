@@ -66,14 +66,15 @@ dd {text-align: center;
         text-align: center;
         margin-right: 50px;
         font-size: 20px;
-        background-color: grey;}
+        background-color: black ;}
 
-#nav {background-color: grey;}
+#nav {background-color: black;}
 
-#nav li a:hover {background-color: black;
-            color: grey;}
+#nav li a:hover {background-color: white;
+            color: black;}
 
-li a {color: black;
-      text-decoration: none;}
+li a {color: white;
+      text-decoration: none;
+    border:2px solid;}
 
 section {text-align: center;}
