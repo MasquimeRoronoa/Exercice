@@ -6,7 +6,10 @@ h1 {text-align: center;
     text-decoration: underline;}
 
 p {color: white;
-  font-size: 40px;}
+  font-size: 40px;
+  text-decoration: none;}
+
+  a {text-decoration: none;}
 
 #colonne1 {float: left;
           margin-left: 260px;}

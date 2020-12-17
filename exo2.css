@@ -1,0 +1,29 @@
+header {background-color: yellow;
+      width:100%;
+      height:45px;}
+
+article {
+  background-color:lightblue;}
+
+nav {float: left;
+    width: 25%;
+    height: 156.63px;
+    background-color: red;}
+
+nav ul {background-color: white;
+        width: 100px;}
+
+nav li {list-style-type: none;
+        color: black;
+}
+
+
+
+section {float:right;
+        background-color: lightblue;
+        width: 75%;
+      }
+
+
+footer {clear: both;
+        background-color: orange; }
