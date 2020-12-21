@@ -1,0 +1,38 @@
+* {box-sizing: border-box;}
+
+body {background-image: url(https://framapiaf.s3.framasoft.org/framapiaf/media_attachments/files/000/054/932/original/36f955e963a448e6.jpg)}
+
+h1 {text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;}
+
+h2 {text-align: center;
+    color: white;
+    font-size: 30px;}
+
+nav { height: 60px;
+     text-align: center;
+      margin-bottom: 30px;}
+
+li {margin-right: 40px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;}
+
+.btn-primary {width: 400px;
+              height: 50px;
+              margin-left: 110px;
+              margin-bottom: 20px;
+              margin-top: 20px;}
+
+.btn-secondary {margin-bottom: 30px;
+        width: auto;
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;}
+
+.accordion-item {background-color: white;
+                margin-bottom: 10px;}
+
+.accordion-body {margin-bottom: 10px;}
