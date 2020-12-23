@@ -6,32 +6,62 @@ body {background-image: url(https://framapiaf.s3.framasoft.org/framapiaf/media_a
     margin-left: 8%;}
 
 .img-thumbnail {width: 18%;
-                margin-left: 15%;
+                margin-left: 0%;
                 margin-top: 4%;
-                margin-right: 6%;}
+                margin-right: 15%;}
+
+.box {display: block;
+      width: 100%;
+      height: 400px;
+      margin-top: 2%;
+      border-radius: 10px;}
+
+.box1 {display: block;
+      width: 100%;
+      height: 480px;
+      padding-top: 2%;
+      margin-top: 2%;
+      border-radius: 10px;}
+
+.box2 {display: block;
+      width: 100%;
+      height: 700px;
+      margin-top: 2%;
+      border-radius: 10px;}
 
 h1 {text-align: center;
     color: white;
-    font-size: 50px;
-    margin-bottom: 20px;}
+    font-size: 50px;}
 
 h2 {text-align: center;
     color: white;
     font-size: 250%;}
 
+.textexpe {color: white;}
+
 .dev {margin-top: 5%;
       width: 100%;}
 
-
-.btn-secondary {margin: 6%;
+.btn-secondary {margin: 10%;
                 margin-top: 4%;
                 width:40%;}
 
+.btn2 {width: 50%;
+      height: 90px;
+      margin-bottom: 3%;
+      margin-top: 1%;
+      margin-left: 25%;}
+
+
+
+
+
 .btn-primary {width: 50%;
-              height: 25%;
+              height: 30%;
               margin-bottom: 3%;
               margin-left: 25%;
-              margin-right: 25%;}
+              margin-right: 25%;
+              margin-top: 1%;}
 
 .accordion-item {background-color: white;
                 margin-bottom: 20px;
@@ -43,8 +73,27 @@ h2 {text-align: center;
 
 .justify-content-center {margin-top: 8%;}
 
+.carousel-item {width:50%;
+                height: 300px;
+                margin-left: 25%;}
+
+.img-carou {margin-left: 25%;}
+.img-centu {margin-left: 37%;}
+
+.btn-primary1 {margin-top: 5%;
+              height: 120%;}
+
+              .butnexpe {height: 90px;
+                        margin-top: 3%;}
+
+.skill {height: 60px;
+        width: 50%;}
+
+.btninfo {height: 10%;
+          margin-top: 4%;}
+
+
 
 
 p {margin-top: 5%;
-  background-color: black;
   color: white;}
