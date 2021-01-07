@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Enquete </title>
+
+  </head>
+
+  <style>
+
+  h1 {text-align: center;}
+  #p1 {text-align: center;}
+
+  </style>
+
+  <body>
+
+  <h1> Nous lançons une grande enquête sur les anciens stagiaires </h1>
+  <p id="p1"> Merci de nous répondre </p>
+
+  <form method="get" enctype="text/plain" name="enquete" />
+
+  <input type="text" name="nomf"  required />  Votre Nom
+</br>
+
+ <input type="text" name="prenom"  required />  Votre Prenom
+</br>
+
+<input type="text" name="date"  required />  Votre Date de Naissance
+</br>
+
+<input type="text" name="adresse"  required />  Votre Adresse
+</br>
+
+<input type="text" name="ville"  required />  Votre Ville
+</br>
+
+<input type="text" name="postal"  required />  Votre Code Postal
+</br>
+
+<input type="text" name="mail"  required />  Votre Mail
+</br>
+
+<input type="checkbox" name="homme"  value="male" checked="checked" /> Vous êtes un homme
+<input type="checkbox" name="femme"  value="female" /> Vous êtes une femme
+<input type="checkbox" name="autre"  value="other" /> Autres
+</br>
+
+<select name="listemetier">
+  <option value="Développeur" selected="selected"> Développeur</option>
+ <option value ="Analyste"> Analyste </option>
+ <option value ="ChefdeProjet"> Chef de Projet </option>
+ <option value ="autres"> Autres </option>
+</select>
+</br>
+<input type="text" name="autres"  required />  Si vous avez sélectionnez un autre, précisez
+
+</br>
+</br>
+
+<select name="listemetier">
+  <option value="<1000" selected="selected"> < 1000 € </option>
+ <option value =">1000"> > 1000 € et < 1500 € </option>
+ <option value =">1500"> > 1500 € et < 2000 € </option>
+ <option value =">2000"> > 2500 € </option>
+</select>
+</br>
+<input type="text" name="autres"  required />  En quelle année, avez vous suivi le stage de l'AFPA
+
+</br>
+</br>
+
+<textarea name="commentaire" id="com" cols="30" rows="5" placeholder="Vos commentaires">
+
+</textarea>
+</br>
+<strong> Merci d'avoir répondue au questionnaire </strong>
+</br>
+<input type="submit" value="Validez" />
+<input type="reset" value="Annulez" />
+
+
+</form>
+
+</body>
+</html>

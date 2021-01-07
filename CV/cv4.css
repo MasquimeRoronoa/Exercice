@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 
-body {background-image: url(https://framapiaf.s3.framasoft.org/framapiaf/media_attachments/files/000/054/932/original/36f955e963a448e6.jpg)}
+body {background-image: url(https://media.istockphoto.com/photos/monochrome-texture-with-white-and-gray-color-picture-id1138782666?k=6&m=1138782666&s=612x612&w=0&h=yxW7wRHOVZ5eA3aCnfNq3c5vorKgo2zmNuoIK0DFiao=)}
 
 .li1 {margin-right: 8%;
     margin-left: 8%;}
@@ -92,8 +92,12 @@ h2 {text-align: center;
 .btninfo {height: 10%;
           margin-top: 4%;}
 
+.h4t {float: left;
+      margin-left: 25%;
+      margin-bottom: 3%;}
 
-
+textarea {float: right;
+          margin-right: 25%;}
 
 p {margin-top: 5%;
   color: white;}
