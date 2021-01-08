@@ -16,3 +16,10 @@ function calcul () {
 
   if (D < 0) {console.log ("Il n'y a pas de solution")}
 }
+
+calcul ()
+
+
+function maFonctionOnclick  () {
+  document.getElementById("num").innerHTML = "06.32.88.90.39";
+}
