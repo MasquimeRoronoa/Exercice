@@ -8,19 +8,21 @@
 
   <body>
 
-    <form name="choix" method="get" enctype="text/plain">
 
-      <input type="radio" name="semaine" value ="week" id="btn1"/> Semaine
+      <input type="radio" name="semaine" value ="Semaine" id="btn1"/> Semaine
     </br>
-      <input type="radio" name ="weekend" value ="weekend" id="btn2"/> Week-End
+      <input type="radio" name ="semaine" value ="WeekEnd" id="btn2"/> Week-End
 </br>
-<input type="submit" value="Choix" onsubmit="mafonctionjs" />
+<input type="button" value="Choix" onclick="mafonctionjs();" id="btn3"/>
 </br>
-<textarea></textarea>
+<textarea id="texthere"></textarea>
 
+<script>
+    function mafonctionjs(){
+      console.log ("");
+      document.getElementById("texthere").value = document.querySelector("input[name=semaine]:checked").value;
+    }
+    </script>
 
-    </form>
-
-<srcipt href="exo1js.js" />
   </body>
   </html>
