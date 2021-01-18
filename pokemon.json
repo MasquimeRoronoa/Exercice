@@ -1,0 +1,75 @@
+{
+  "nom" : "pikachu",
+  "niveau": "12",
+  "pvMax": "100",
+  "pvActuel": "100",
+  "sesAttaques": ["Eclair", "Tonerre", "Surf", "Seisme"],
+  "attaques" : [
+    {
+        "nom":"Eclair" ,
+        "puissance" : "80",
+        "type" : "eclair",
+        "ppMax" : "10",
+        "ppActuel" : "5"
+    },
+    {
+      "nom":"Tonerre" ,
+      "puissance" : "90",
+      "type" : "eclair",
+      "ppMax" : "15",
+      "ppActuel" : "3"
+    },
+    {
+      "nom":"Surf" ,
+      "puissance" : "100",
+      "type" : "eau",
+      "ppMax" : "10",
+      "ppActuel" : "8"
+    },
+    {
+      "nom":"Seisme" ,
+      "puissance" : "100",
+      "type" : "sol",
+      "ppMax" : "10",
+      "ppActuel" : "1"
+    },
+  ],
+
+  "statut" : "aucun",
+  "Dresseur" : "Maskime",
+  "KO" : "false",
+  "type" : "electrique",
+
+
+}
+
+{
+  "nom" : "rattata",
+  "niveau": "10",
+  "pvMax": "100",
+  "pvActuel": "100",
+  "sesAttaques": ["Charge", "Rugissement"],
+  "attaques" : [
+    {
+        "nom":"Charge" ,
+        "puissance" : "50",
+        "type" : "normal",
+        "ppMax" : "10",
+        "ppActuel" : "5"
+    },
+    {
+      "nom":"Rugissement" ,
+      "puissance" : "10",
+      "type" : "normal",
+      "ppMax" : "15",
+      "ppActuel" : "3"
+    },
+  ],
+
+  "statut" : "aucun",
+  "Dresseur" : "Sauvage",
+  "KO" : "false",
+  "type" : "normal",
+
+
+}

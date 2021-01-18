@@ -1,0 +1,15 @@
+body {background-image: url(https://cutewallpaper.org/21/battle-backgrounds/Pokemon-background-battle-8-Background-Check-All.png)}
+
+#pika {width : 15%;
+        margin-left: 10%;
+        margin-top: 10%;}
+
+#rata {float: right;
+      margin-right: 10%;}
+
+#atkpika {display: block;
+        margin-left: 10%;}
+
+#atkrata {display: block;
+          margin-left: 78%;
+          margin-top: -250px;}
