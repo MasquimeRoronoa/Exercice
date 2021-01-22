@@ -3,36 +3,36 @@ var btn1 = document.getElementById("cacher");
 var survol = document.getElementById("survol");
 var timer = document.getElementById("timer");
 
-btn.addEventListener("click", function(){
+btn.addEventListener("click", function () {
 
-var postit = document.getElementById("postIt").style.visibility = "visible";
+    var postit = document.getElementById("postIt").style.visibility = "visible";
 
-console.log(postIt);
+    console.log(postIt);
 
-document.getElementById("postIt").innerHTML = "Vous avez cliqué sur le bouton 'Afficher' !";
-console.log(postIt);
-
-})
-
-btn1.addEventListener("click", function(){
-
-var postit = document.getElementById("postIt").style.visibility = "hidden";
-console.log(postIt);
+    document.getElementById("postIt").innerHTML = "Vous avez cliqué sur le bouton 'Afficher' !";
+    console.log(postIt);
 
 })
 
-survol.addEventListener("mouseover", function (){
+btn1.addEventListener("click", function () {
 
-survol = document.getElementById("postIt").stylevisibility = "visible";
-console.log("postIt");
-survol = document.getElementById("postIt").innerHTML = " C’est gentil de me survoler..."
+    var postit = document.getElementById("postIt").style.visibility = "hidden";
+    console.log(postIt);
 
 })
 
-survol.addEventListener("mouseout", function (){
+survol.addEventListener("mouseover", function () {
 
-var postit = document.getElementById("postIt")
-survol = document.getElementById("postIt").style.visibility = "hidden";
-console.log("postIt");
+    survol = document.getElementById("postIt").stylevisibility = "visible";
+    console.log("postIt");
+    survol = document.getElementById("postIt").innerHTML = " C’est gentil de me survoler..."
+
+})
+
+survol.addEventListener("mouseout", function () {
+
+    var postit = document.getElementById("postIt")
+    survol = document.getElementById("postIt").style.visibility = "hidden";
+    console.log("postIt");
 
 })
